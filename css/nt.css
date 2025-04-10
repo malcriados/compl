@@ -33,7 +33,7 @@ body {
 .contenedor {
 	position: relative;
 	width: 90%;
-	max-width: 900px;
+	max-width: 100%;
 	border-radius: 10px;
 	overflow: hidden;
 	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
@@ -231,4 +231,31 @@ a:hover {
 		margin: 0px;
 		padding: 0px 20px 0px 20px;
 		background-color: var(--botondescargar);
+	}
+
+	@media only screen and (max-width: 1200px) {
+		.contenedor {
+			width: 99%;
+		}
+		.columna-izquierda {
+			padding: 2px;
+		}
+	}
+	
+	@media only screen and (max-width: 1000px) {
+		* {
+			margin: 0% 5% 0% 5%;   
+		}
+		.login>img {
+			width: 26%;
+		}
+	}
+	
+	@media only screen and (max-width: 500px) {
+		* {
+			margin: 0% 1% 0% 1%;    
+		}
+		.login>img {
+			width: 36%;
+		}
 	}
