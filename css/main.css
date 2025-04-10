@@ -96,6 +96,12 @@
         padding-top: 2%;
         padding-bottom: 2%;
     }
+
+    #cabecera {
+        text-align: center;
+        margin-top: 15%;
+        margin-bottom: 1%;
+    }
     
     #cabecera>img {
         width: 36%;
