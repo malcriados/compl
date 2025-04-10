@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'edy';
+    src: url('https://rawcdn.githack.com/educomputacion/fuentes/316e6762128b7a6b2ebd169d0ed77f71070a5993/shine.woff');
+    }
+
+    @font-face {
+        font-family: 'edy2';
+        src: url('/font/Margesh.woff');
+        }
+
+    h1 {
+        font-family: edy;
+        font-size: 200px;
+        color: #0000ff;
+    }
