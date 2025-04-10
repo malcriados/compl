@@ -41,10 +41,11 @@
 	border-radius: 10px;
 	background: #ff9900;
     text-decoration: none;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 1%;
     padding-bottom: 1%;
+    font-weight: 700;
 	color: #000000;
 	border: 0px solid #fff;
 	cursor: pointer;
@@ -94,5 +95,13 @@
 
     #cabecera>img {
         width: 36%;
+    }
+
+    #login>a {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-weight: 700;
     }
 }
