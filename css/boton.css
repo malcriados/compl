@@ -93,6 +93,10 @@ input:focus {
     * {
         margin: 0% 5% 0% 5%;   
     }
+	.login {
+		border: 0px solid #000;
+		border-radius: 50px;
+	}
 	.login>img {
 		width: 26%;
 	}
