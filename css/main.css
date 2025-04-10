@@ -41,11 +41,11 @@
 	border-radius: 10px;
 	background: #ff9900;
     text-decoration: none;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 1%;
-    padding-bottom: 1%;
     font-weight: 700;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 	color: #000000;
 	border: 0px solid #fff;
 	cursor: pointer;
@@ -89,19 +89,15 @@
         margin: auto 2%;    
     }
 
-    body {
-        padding-top: 15%;
-    }
-
-    #cabecera>img {
-        width: 36%;
-    }
-
     #login>a {
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-top: 1%;
-        padding-bottom: 1%;
         font-weight: 700;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    
+    #cabecera>img {
+        width: 35%;
     }
 }
