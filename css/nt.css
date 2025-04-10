@@ -49,6 +49,7 @@ body {
 }
 
 .header {
+	margin-top: 20px;
 	margin-bottom: 1px;
 	text-align: center;
 }
@@ -79,7 +80,8 @@ label {
 }
 
 .registro.activo {
-	display: block;
+	display: flex;
+	flex-direction: column;
 }
 
 .exito {
@@ -193,7 +195,7 @@ a:hover {
 	font-size: 16px;
 	padding: 12px 20px 12px 45px;
 	border: 0px solid #ddd;
-	margin-bottom: 12px;
+
 	}
 	
 	#calif {
@@ -244,7 +246,7 @@ a:hover {
 	
 	@media only screen and (max-width: 1000px) {
 		* {
-			margin: 0% 5% 0% 5%;   
+			margin: 0% 2% 0% 2%;   
 		}
 		.login>img {
 			width: 26%;
@@ -257,5 +259,17 @@ a:hover {
 		}
 		.login>img {
 			width: 36%;
+		}
+
+		#calif th, #calif td {
+			text-align: left;
+			padding: 12px 5px 12px 5px;
+		}
+
+		#bot { 
+			margin: 0px;
+			padding: 0px 5px 0px 5px;
+			background-color: var(--botondescargar);
+			font-size: 15px;
 		}
 	}
