@@ -88,6 +88,10 @@
         margin: auto 2%;    
     }
 
+    body {
+        padding-top: 15%;
+    }
+
     #cabecera>img {
         width: 35%;
     }
