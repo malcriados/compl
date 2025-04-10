@@ -16,14 +16,13 @@
 
 * {
 	padding: 0;
-	margin: 0;
+	margin: auto;
 	box-sizing: border-box;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-	background: #F0F4F3;
-
+	background: #ffffff;
 	padding-top: 20px;
 	display: flex;
 	align-items: center;
@@ -36,10 +35,8 @@ body {
 	max-width: 100%;
 	border-radius: 10px;
 	overflow: hidden;
-	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 	background: #fff;
 	min-height: 37vh;
-
 	display: grid;
 	grid-template-columns: 1fr;
 }
