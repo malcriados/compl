@@ -137,8 +137,12 @@
         font-weight: 700;
         padding-left: 26%;
         padding-right: 26%;
-        padding-top: 1.5%;
-        padding-bottom: 1.5%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+
+    #espacio2 {
+        height: 7px;
     }
 }
 
