@@ -1,6 +1,3 @@
-window.oncontextmenu = function () {
-    return false;
-};
 
 document.addEventListener("keydown", function(event){
     var key = event.key || event.keyCode;

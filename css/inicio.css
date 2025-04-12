@@ -1,0 +1,18 @@
+.login-boton2>form>button {
+	margin-top: 0.5%;
+	font-size: 14px;
+	border-radius: 10px;
+	background: #00bd09;
+	height: 40px;
+	color: #fff;
+	padding: 0px 57px 0px 57px;
+	border: 0px solid #fff;
+	cursor: pointer;
+	transition: .3s ease all;
+	outline: none;
+}
+
+.login-boton2>form>button:hover {
+	background: #000000;
+	color: #ffffff;
+}
