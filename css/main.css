@@ -47,7 +47,7 @@
     margin-bottom: 10%;
 	font-size: 18px;
 	border-radius: 10px;
-	background: radial-gradient(circle,rgba(239, 152, 0, 1) 0%, rgba(235, 125, 18, 1) 92%);
+    background-color: #ef9800;
     text-decoration: none;
     font-weight: 700;
     padding-left: 30%;
@@ -62,8 +62,8 @@
 }
 
 #login>a:hover {
-	background: radial-gradient(circle,rgba(0, 0, 0, 1) 54%, rgba(255, 255, 255, 1) 100%);
-    transition: 5s;
+    background-color: #000000;
+    transition: 1s;
 	color: #ffff;
 }
 
