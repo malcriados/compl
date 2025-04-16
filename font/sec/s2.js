@@ -1,6 +1,6 @@
 function fun() {
     let inputPswd = document.getElementById("validate").value;
-    let correctPswd = "2";
+    let correctPswd = "lidersegundo";
     if (inputPswd === correctPswd) {
       document.getElementById("fds").style.display = window.location.href =
         "/2do968x3848i9498ii5i68x9downx.html";
