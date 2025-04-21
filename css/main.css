@@ -1,151 +1,156 @@
-* {
-    margin: auto 5.5% auto 5.5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+@font-face {
+    font-family: 'liderblack';
+    src: url('https://cdn.jsdelivr.net/gh/malcriados/F@main/lider-black.woff');
 }
 
-#espacio {
-    height: 5px;
+@font-face {
+    font-family: 'liderbold';
+    src: url('https://cdn.jsdelivr.net/gh/malcriados/F@main/lider-bold.woff');
 }
 
-#cabecera {
+@font-face {
+    font-family: 'liderextrabold';
+    src: url('https://cdn.jsdelivr.net/gh/malcriados/F@main/lider-extrabold.woff');
+}
+
+@font-face {
+    font-family: 'liderlight';
+    src: url('https://cdn.jsdelivr.net/gh/malcriados/F@main/lider-light.woff');
+}
+
+/* Reset y fuente */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Contenedor principal centrado */
+.main-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Tarjeta central */
+.card-central {
+    background: #fff;
+    border-radius: 20px;
+    padding: 40px 30px;
     text-align: center;
-    margin-top: 12%;
-    margin-bottom: 1%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
 }
 
-#cabecera>img {
-    width: 15%;
-    transition: transform .2s;
+/* Logo */
+.logo {
+    width: 100px;
+    height: auto;
 }
 
-#cabecera>img:hover {
-    transform: scale(1.1);
+.logo:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
-#cabecera>h1 {
-    margin-top: 1%;
-    font-weight: 900;
+/* Título */
+h1 {
+    font-family: 'liderblack';
+    font-size: 2.5em;
+    color: #000;
+    margin: 2px 0px 2px 0px;
 }
 
-#descripcion {
-    text-align: center;
-    background-color: #f3f3f3;
-    border-radius: 10px;
-    padding: 18px 0px 18px 0px;
-    margin: auto 8% auto;
+/* Descripción */
+h2 {
+    font-family: 'liderlight';
+    font-size: 1.0em;
+    color: #000;
+    margin: 2px 0px 10px 0px;
 }
 
-#login {
-    margin-top: 2%;
-    padding-bottom: 2%;
-    text-align: center;
+/* Botones */
+.botones {
+    font-family: 'liderbold';
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-#login>a {
-    text-align: center;
-    margin-bottom: 10%;
-	font-size: 18px;
-	border-radius: 10px;
-    background-color: #ef9800;
+.btn {
+    padding: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
     text-decoration: none;
-    font-weight: 700;
-    padding-left: 30%;
-    padding-right: 30%;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-	color: #ffffff;
-	border: 0px solid #fff;
-	cursor: pointer;
-	transition: .3s ease all;
-	outline: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-#login>a:hover {
-    background-color: #000000;
-    transition: 1s;
-	color: #ffff;
+.btn.secundaria {
+    background: linear-gradient(135deg, #d17a00, #f39c12);
 }
 
-#creditos {
-    padding-top: 3%;
+.btn.primaria {
+    background: linear-gradient(135deg, #d17a00, #f39c12);
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.back-btn {
+    margin-top: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: #e67e22;
+    font-weight: bold;
+  }
+
+  footer {
+    font-size: 15px;
+    font-family: 'liderlight';
+    background-color: #f1f1f1;
     text-align: center;
-}
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .footer-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0px;
+    margin: 0px;
+  }
 
-#creditos>footer {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+  .footer-contenido>p>span {
+    font-family: 'liderbold';
+  }
 
-@media only screen and (max-width: 1200px) {
-    * {
-        margin: auto 40px auto 40px;      
+
+/* Responsive */
+@media (max-width: 480px) {
+    .card-central {
+        padding: 30px 20px;
     }
 
-    #cabecera>img {
-        width: 25%;
+    h1 {
+        font-size: 2em;
     }
 
-    .accordion {
-        display: grid;
-        text-align: center;
-    }
-
-    #login>a {
-        font-weight: 700;
-        padding-left: 35%;
-        padding-right: 35%;
-        padding-top: 1.5%;
-        padding-bottom: 1.5%;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    * {
-        margin: auto 1px auto 1px;     
-    }
-
-    #cabecera>img {
-        width: 15%;
-    }
-
-    #login>a {
-        font-weight: 700;
-        padding-left: 30%;
-        padding-right: 30%;
-        padding-top: 1.5%;
-        padding-bottom: 1.5%;
-    }
-
-}
-
-@media only screen and (max-width: 500px) {
-    * {
-        margin: auto 0.5px auto 0.5px;   
-    }
-
-    #cabecera {
-        text-align: center;
-        margin-top: 15%;
-        margin-bottom: 1%;
-    }
-    
-    #cabecera>img {
-        width: 36%;
-    }
-
-    #login>a {
-        font-weight: 700;
-        padding-left: 26%;
-        padding-right: 26%;
-        padding-top: 2.5%;
-        padding-bottom: 2.5%;
-    }
-
-    #espacio2 {
-        height: 7px;
+    .btn {
+        font-size: 1em;
     }
 }
 
-#botones {
-    background-color: #444;
-}

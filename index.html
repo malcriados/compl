@@ -1,47 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SISTEMA DE FICHAS DE TRABAJO</title>
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-
-    <link rel="stylesheet" href="css/main.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COMPLIDER</title>
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.css"/>
 </head>
-
 <body>
-    <div>
-        <div id="cabecera">
-            <img src="img/logo.png" alt="">
-            <h1>COMPLIDER</h1>
-        </div>
-        <div id="descripcion">
-            <p>Sistema del área de computación</p>
-        </div>
-
-        <div id="espacio"></div>
-
-        <div id="login">
-            <a class="btn btn-primary" href="/secundaria.html">SECUNDARIA</a>
-            <br>
-        </div>
-
-        <div id="espacio2"></div>
-
-        <div id="login">
-            <a class="btn btn-primary" href="/primaria.html">PRIMARIA</a>
-            <br>
-        </div>
-
+  <div class="main-container">
+    <div class="card-central">
+      <img src="img/logo.png" alt="Logo COMPLIDER" class="logo" />
+      <h1>COMPLIDER</h1>
+      <h2>Sistema del área de computación</h2>
+      <div class="botones">
+        <a href="secundaria.html" class="btn secundaria">SECUNDARIA</a>
+        <a href="primaria.html" class="btn primaria">PRIMARIA</a>
+        <a href="#" class="btn primaria">DOCENTE</a>
+      </div>
     </div>
-    <div id="creditos">
-        <footer>Edy Jallahui Duran<br>DOCENTE</footer>
-    </div>
+  </div>
 
-    <script src="js/block.js"></script>
-    <script src="font/ac.js"></script>
+  <footer>
+    <div class="footer-contenido">
+      <p>Edy Jallahui Duran<br><span>DOCENTE</span></p>
+    </div>
+  </footer>
+
+  <script src="js/seguridad/block.js"></script>
+  <script>
+    // Esto cambia la URL eliminando ".html" sin recargar la página
+    if (location.pathname.endsWith(".html")) {
+      const newPath = location.pathname.replace(/\.html$/, "");
+      history.replaceState(null, "", newPath);
+    }
+  </script>
+  
 </body>
-
 </html>
+
+

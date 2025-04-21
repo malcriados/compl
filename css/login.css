@@ -1,0 +1,62 @@
+/* ...todos los estilos anteriores se mantienen... */
+
+/* Subtítulo del login */
+.subtitulo {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* Formulario login */
+.login-form {
+  font-family: 'liderbold';
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-form input {
+  padding: 12px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.login-form input:focus {
+  border-color: #d17a00;
+}
+
+/* Botón de login */
+.btn.login {
+  background: linear-gradient(135deg, #d17a00, #f39c12);
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn.login:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.back-btn {
+  margin-top: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #e67e22;
+  font-weight: bold;
+}
+
+#mensaje {
+  font-family: 'liderlight';
+  margin: 0;
+  color: #000000;
+  font-size: 14px;
+}

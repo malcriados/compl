@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PRIMARIA - COMPLIDER</title>
+  <title>LOGIN 2S - COMPLIDER</title>
   <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="css/main.css"/>
+  <link rel="stylesheet" href="css/login.css"/>
 </head>
 <body>
   <div class="main-container">
@@ -13,17 +14,18 @@
       <img src="img/logo.png" alt="Logo COMPLIDER" class="logo" />
       <h1>COMPLIDER</h1>
       <h2>Sistema del área de computación</h2>
-      <div class="botones">
-        <a href="#" class="btn primaria">SEGUNDO</a>
-        <a href="#" class="btn primaria">TERCERO</a>
-        <a href="#" class="btn primaria">CUARTO</a>
-        <a href="#" class="btn primaria">QUINTO</a>
-        <a href="#" class="btn primaria">SEXTO</a>
+      <form id="pswd" class="login-form">
+        <input type="text" id="username" placeholder="Usuario" required />
+        <input type="password" id="validate" placeholder="Contraseña" required />
+        <button type="button" onclick="fun()" class="btn login">INGRESAR</button>
+        <p id="mensaje"></p>
         <a href="index.html" class="back-btn">← Volver al inicio</a>
-      </div>
+      </form>
     </div>
   </div>
 
+<script src="font/sec/s2.js"></script>
 </body>
 </html>
+
 

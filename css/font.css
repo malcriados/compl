@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'liderblack';
+    src: url('https://cdn.jsdelivr.net/gh/malcriados/F@main/lider-black.woff');
+}
+
+@font-face {
+    font-family: 'liderbold';
+    src: url('https://cdn.jsdelivr.net/gh/malcriados/F@main/lider-bold.woff');
+}
+
+@font-face {
+    font-family: 'liderextrabold';
+    src: url('https://cdn.jsdelivr.net/gh/malcriados/F@main/lider-extrabold.woff');
+}
+
+@font-face {
+    font-family: 'liderlight';
+    src: url('https://cdn.jsdelivr.net/gh/malcriados/F@main/lider-light.woff');
+}
