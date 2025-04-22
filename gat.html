@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gato Caminando de Noche</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(to top, #0a0a23 80%, #1a1a40);
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+      font-family: sans-serif;
+    }
+
+    /* Estrellas */
+    .estrella {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      background: white;
+      border-radius: 50%;
+      animation: parpadeo 3s infinite ease-in-out;
+    }
+
+    @keyframes parpadeo {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
+
+    /* Luna */
+    .luna {
+      position: absolute;
+      top: 50px;
+      right: 80px;
+      width: 80px;
+      height: 80px;
+      background: #fefcd7;
+      border-radius: 50%;
+      box-shadow: 0 0 20px #fffaa0;
+    }
+
+    /* Suelo */
+    .suelo {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 100px;
+      background: #222;
+    }
+
+    /* Gato */
+    .gato {
+      position: absolute;
+      bottom: 100px;
+      width: 60px;
+      height: 40px;
+      background: #444;
+      border-radius: 20px;
+      animation: caminar 8s linear infinite;
+    }
+
+    .gato::before, .gato::after {
+      content: '';
+      position: absolute;
+      background: #333;
+      border-radius: 50%;
+    }
+
+    .gato::before {
+      width: 20px;
+      height: 20px;
+      top: -10px;
+      left: 10px;
+    }
+
+    .gato::after {
+      width: 10px;
+      height: 10px;
+      bottom: -5px;
+      right: 10px;
+      animation: moverCola 1s infinite ease-in-out;
+    }
+
+    @keyframes moverCola {
+      0%, 100% { transform: rotate(10deg); }
+      50% { transform: rotate(-10deg); }
+    }
+
+    @keyframes caminar {
+      0% { left: -80px; }
+      100% { left: 100vw; }
+    }
+  </style>
+</head>
+<body>
+  <div class="luna"></div>
+
+  <!-- Estrellas aleatorias -->
+  <script>
+    for (let i = 0; i < 60; i++) {
+      const estrella = document.createElement('div');
+      estrella.className = 'estrella';
+      estrella.style.left = Math.random() * 100 + 'vw';
+      estrella.style.top = Math.random() * 60 + 'vh';
+      estrella.style.animationDuration = (2 + Math.random() * 3) + 's';
+      document.body.appendChild(estrella);
+    }
+  </script>
+
+  <div class="gato"></div>
+  <div class="suelo"></div>
+</body>
+</html>
