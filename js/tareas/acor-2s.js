@@ -1,11 +1,13 @@
 const pages = [
   [
     { title: "Actividad 03", content: "Ejecutar el comando DXDIAG desde el Símbolo del sistema de Windows (CMD) para obtener un reporte detallado de las características del equipo. Capturar la información generada y pegar en el cuaderno correspondiente. <br><br> <b>Fecha de Entrega:</b> 30-04-25" },
+  ],
+  [
     { title: "Actividad 02", content: "Capturar la información detallada sobre la MEMORIA RAM y el almacenamiento (DISCO) del equipo utilizando el ADMINISTRADOR DE TAREAS de Windows. Posteriormente, pegar dicha información en el cuaderno. <br><br> <b>Fecha de Entrega:</b> 23-04-25"}
   ],
   [
     { title: "Actividad 01", content: "Elaborar un resumen o un organizador gráfico correspondiente a cada una de las fichas pendientes en el cuaderno, con el fin de complementar la información faltante de manera clara y estructurada. <br><br> <b>Fecha de Entrega:</b> SIGUIENTE SESIÓN" },
-  ]
+  ],
 ];
 
 let currentPage = 0;
