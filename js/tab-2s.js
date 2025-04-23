@@ -1,7 +1,8 @@
 const data = [
-  { nombre: "03 - DISPOSITIVOS DE ALMACENAMIENTO", fecha: "16/04", url:"www.google.com" },
-  { nombre: "02 - LA MEMORIA RAM", fecha: "02/04", url:"www.google.com" },
-  { nombre: "01 - EL ORDENADOR Y SUS COMPONENTES", fecha: "26/03", url:"www.google.com" },
+  { nombre: "04 - LA PLACA BASE", fecha: "23/04", url:"https://drive.google.com/uc?id=1wWWLBLWKxSERPz9PZ6YQheKM3hjEirXs&export=download" },
+  { nombre: "03 - DISPOSITIVOS DE ALMACENAMIENTO", fecha: "16/04", url:"https://drive.google.com/uc?id=1_yXCba5hV2DExsgmxrdAx0HddrFw3gz_&export=download" },
+  { nombre: "02 - LA MEMORIA RAM", fecha: "02/04", url:"https://drive.google.com/uc?id=15TsMH7cHZ2Xh_WY-aY8hFAWOXtvsI3Rn&export=download" },
+  { nombre: "01 - EL ORDENADOR Y SUS COMPONENTES", fecha: "26/03", url:"https://drive.google.com/uc?id=1y7URhW6dx16D3DXnIcSECgZZHXOVae_9&export=download" },
 ];
 
 const rowsPerPage = 4;

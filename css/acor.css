@@ -1,0 +1,120 @@
+:root {
+  --main-color: #e28b19;
+  --accent-color: #000000;
+  --text-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "liderbold";
+  background: #f5f5f5;
+  color: var(--accent-color);
+}
+
+header {
+  background: var(--main-color);
+  padding: 1rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+header img {
+  display: block;
+  margin: 0 auto 0px;
+  width: 100px;
+}
+
+header img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+#tit {
+  font-family: "liderbold";
+}
+
+#cont {
+  font-family: "liderlight";
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.post h2 {
+  color: var(--main-color);
+  margin-bottom: 0.5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.btn {
+  background: var(--main-color);
+  color: var(--text-color);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #c76e00;
+}
+
+.btncentrar {
+  text-align: center;
+}
+
+.backbtn {
+  margin-top: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #e67e22;
+  font-weight: bold;
+}
+
+header>h1 {
+  font-family: 'liderblack';
+  font-size: 2.5em;
+  color: #ffffff;
+  margin: 2px 0px 2px 0px;
+  text-align: center;
+}
+
+header>h2 {
+  text-align: center;
+  font-family: 'liderlight';
+  font-size: 1.0em;
+  color: #ffffff;
+  margin: 2px 0px 10px 0px;
+}
+
+@media (max-width: 600px) {
+  .btn {
+    flex: 1 1 100%;
+  }
+}

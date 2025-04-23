@@ -5,7 +5,7 @@ function fun() {
 
   // Lista de 25 usuarios y contraseñas
   const usuarios = {
-    "1": "2",
+    "segundo": "lidersegundo",
     "3": "4",
     "user03": "pass03",
     "user04": "pass04",
