@@ -1,6 +1,6 @@
 const data = [
-  { nombre: "06 - FUENTE DE PODER", fecha: "04/05", url:"https://drive.google.com/uc?id=1SXxN0IQGCXrwdnABx62tUXFHgfq8veb9&export=download" },
-  { nombre: "05 - TARJETA GRÁFICA", fecha: "04/05", url:"https://drive.google.com/uc?id=1YSDupxdSyHXE0jilXiSL7X-9mbNcMUgH&export=download" },
+  { nombre: "06 - FUENTE DE PODER", fecha: "05/05", url:"https://drive.google.com/uc?id=1SXxN0IQGCXrwdnABx62tUXFHgfq8veb9&export=download" },
+  { nombre: "05 - TARJETA GRÁFICA", fecha: "05/05", url:"https://drive.google.com/uc?id=1YSDupxdSyHXE0jilXiSL7X-9mbNcMUgH&export=download" },
   { nombre: "04 - LA PLACA BASE", fecha: "21/04", url:"https://drive.google.com/uc?id=1fsHb8RL82drf37lF67R01qDYkY8EZWh2&export=download" },
   { nombre: "03 - DISPOSITIVOS DE ALMACENAMIENTO", fecha: "14/04", url:"https://drive.google.com/uc?id=1wNN0boNgA6_9MRCkDGu4Lq4y3IA7OJt7&export=download" },
   { nombre: "02 - LA MEMORIA RAM", fecha: "14/04", url:"https://drive.google.com/uc?id=1OJunvj40oLdjF51ozHPSQx-uEUKiZ9WG&export=download" },
