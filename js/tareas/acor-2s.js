@@ -1,6 +1,6 @@
 const pages = [
   [
-    { title: "Actividad 04", content: "Capturar la información detallada sobre la TARJETA GRÁFICA (GPU) del equipo utilizando el ADMINISTRADOR DE TAREAS de Windows. Posteriormente, pegar dicha información en el cuaderno. <br><br> <b>Fecha de Entrega:</b> 23-04-25"}
+    { title: "Actividad 04", content: "Capturar la información detallada sobre la TARJETA GRÁFICA (GPU) del equipo utilizando el ADMINISTRADOR DE TAREAS de Windows. Posteriormente, pegar dicha información en el cuaderno. <br><br> <b>Fecha de Entrega:</b> 14-05-25"}
   ],
   [
     { title: "Actividad 03", content: "Ejecutar el comando DXDIAG desde el Símbolo del sistema de Windows (CMD) para obtener un reporte detallado de las características del equipo. Capturar la información generada y pegar en el cuaderno correspondiente. <br><br> <b>Fecha de Entrega:</b> 30-04-25" },
