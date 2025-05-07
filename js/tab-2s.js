@@ -1,4 +1,6 @@
 const data = [
+  { nombre: "06 - FUENTE DE PODER", fecha: "07/05", url:"https://drive.google.com/uc?id=185lEWYAtJ5e2Q-YZ12CNEVqDAO9efkfk&export=download" },
+  { nombre: "05 - TARJETA GRÁFICA", fecha: "07/05", url:"https://drive.google.com/uc?id=11RIPA0AZFHVE1Fub06JApFc9T6_3oKkb&export=download" },
   { nombre: "04 - LA PLACA BASE", fecha: "23/04", url:"https://drive.google.com/uc?id=1wWWLBLWKxSERPz9PZ6YQheKM3hjEirXs&export=download" },
   { nombre: "03 - DISPOSITIVOS DE ALMACENAMIENTO", fecha: "16/04", url:"https://drive.google.com/uc?id=1_yXCba5hV2DExsgmxrdAx0HddrFw3gz_&export=download" },
   { nombre: "02 - LA MEMORIA RAM", fecha: "02/04", url:"https://drive.google.com/uc?id=15TsMH7cHZ2Xh_WY-aY8hFAWOXtvsI3Rn&export=download" },
