@@ -7,7 +7,7 @@ function fun() {
   const usuarios = {
     "segundo": "lidersegundo",
     "3": "4",
-    "user03": "pass03",
+    "mishell": "vargas",
     "user04": "pass04",
     "user05": "pass05",
     "user06": "pass06",
