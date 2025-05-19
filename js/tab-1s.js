@@ -1,4 +1,5 @@
 const data = [
+  { nombre: "07 - EL PROCESADOR", fecha: "18/05", url:"https://drive.google.com/uc?id=1YId2C1zrkS1z2AB4OpKdOf29Qgv31SrG&export=download" },
   { nombre: "06 - FUENTE DE PODER", fecha: "05/05", url:"https://drive.google.com/uc?id=1SXxN0IQGCXrwdnABx62tUXFHgfq8veb9&export=download" },
   { nombre: "05 - TARJETA GRÁFICA", fecha: "05/05", url:"https://drive.google.com/uc?id=1YSDupxdSyHXE0jilXiSL7X-9mbNcMUgH&export=download" },
   { nombre: "04 - LA PLACA BASE", fecha: "21/04", url:"https://drive.google.com/uc?id=1fsHb8RL82drf37lF67R01qDYkY8EZWh2&export=download" },
