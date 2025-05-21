@@ -1,5 +1,8 @@
 const pages = [
   [
+    { title: "Actividad 05", content: "Capturar la información detallada sobre EL PROCESADOR (CPU) del equipo utilizando el ADMINISTRADOR DE TAREAS de Windows. Posteriormente, pegar dicha información en el cuaderno. <br><br> <b>Fecha de Entrega:</b> 14-05-25"}
+  ],
+  [
     { title: "Actividad 04", content: "Capturar la información detallada sobre la TARJETA GRÁFICA (GPU) del equipo utilizando el ADMINISTRADOR DE TAREAS de Windows. Posteriormente, pegar dicha información en el cuaderno. <br><br> <b>Fecha de Entrega:</b> 14-05-25"}
   ],
   [
